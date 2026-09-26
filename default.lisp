@@ -100,7 +100,7 @@
   (type::expand-user-type type))
 )
 
-#-(or abcl allegro clisp ecl lispworks)
+#-(or abcl allegro clisp ecl lispworks dotcl)
 (progn
 (defun typexpand (type &optional env)
   "This implementation is not supported; no types are expanded."

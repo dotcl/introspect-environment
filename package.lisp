@@ -26,4 +26,7 @@
   #+clasp
   (:shadowing-import-from "EXT"
                           #:constant-form-value
+                          #:typexpand #:typexpand-1)
+  #+dotcl
+  (:shadowing-import-from "DOTCL"
                           #:typexpand #:typexpand-1))
